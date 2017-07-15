@@ -1,0 +1,49 @@
+$color-grey: #EDEDED;
+$color-white: white;
+$color-blue: #3B5A76;
+
+.portofolio{
+	background-color: $color-grey;
+	/*padding-top: 60px;*/
+}
+.picture{
+	text-align: center;
+	margin-bottom: -100px;
+	position: relative;
+}
+.content{
+	border:1px solid #C1C1C1;
+	background-color: $color-white;
+	padding:100px 40px 40px 40px;
+	h1{
+		text-align: center;
+	}
+	h2{
+		color: $color-blue;
+	}
+	.educationAndExperience{
+		margin-bottom: 40px;
+			div{
+				margin-top:10px;
+				background-color: $color-grey;
+			}	
+	}
+	.contact-info li{
+		margin-bottom:20px;
+		font-size: 16px;
+	}
+	.about-me{
+		margin-bottom: 150px;
+	}
+	.programming-skills{
+		margin-bottom:260px;
+	}
+}
+span{
+	color: $color-blue;
+}
+footer{
+	padding-top: 10px;
+	background-color: $color-blue;
+	color: $color-white;
+}
